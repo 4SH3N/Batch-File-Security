@@ -4,7 +4,7 @@ TITLE FILE PROTECTED BY MINOTAUR v1.0
 rem this is the config panel.
 rem set password here, for example
 rem set %passinput%=yourpassword
-rem the file detects whether its a capital letter or not.
+rem the file DOES NOT detect whether its a capital letter or not.
 
 set passinput=
 
@@ -210,8 +210,8 @@ SET /P PASSOWORD="PASSWORD: "
 
 :: this is the main password checker.
 
-if %password%=="%passinput%" goto file
-
+if %password%==%passinput% goto file
+ECHO NOPE XD
 rem these are password secrets. none of them allows
 rem accesing the file, they are made for pure fun
 rem the first one is "password" and the other stuff in polish because... you wont believe...
