@@ -4,9 +4,9 @@ TITLE FILE PROTECTED BY MINOTAUR v1.0
 rem this is the config panel.
 rem set password here, for example
 rem set %passinput%=yourpassword
-rem the file detects whether its a capital letter or not.
+rem the file DOES NOT detect whether its a capital letter or not.
 
-set passinput=passwordforfile
+set passinput=passwdxd
 
 rem and here you set the title to set later, after the verification measures
 
@@ -206,12 +206,12 @@ ECHO IT'S MADE TO PREVENT BRUTE/DICTIONARY CRACKING SO
 ECHO DON'T EVEN TRY LOL.
 ECHO ------------------------------------------------------
 ECHO. 
-SET /P PASSOWORD="PASSWORD: "
+SET /P password="PASSWORD: "
 
 :: this is the main password checker.
 
-if %password%=="%passinput%" goto file
-
+if %password%==%passinput% goto file
+echo nope xd
 rem these are password secrets. none of them allows
 rem accesing the file, they are made for pure fun
 rem the first one is "password" and the other stuff in polish because... you wont believe...
@@ -233,5 +233,6 @@ echo.
 
 REM HERE IS WHERE YOU PUT THE REST OF THE FILE. YOU DONT HAVE TO DELETE THE "REM","::" AND ":" COMMENTS AS THEY DONT AFFECT THE FILE
 
-echo hello world
-pause
+ECHO HELLO WORLD
+PAUSE
+
