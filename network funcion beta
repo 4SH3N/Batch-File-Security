@@ -1,0 +1,13 @@
+rem this is the network IP panel:
+
+set IPnet=8.8.8.8
+
+for /f %%i in ('ping %IPnet% ^| find /c "(0%% loss)"') do SET MATCHES=%%i
+if %matches%==1 goto :goodip
+echo You are not connected to the network.
+pause
+exit
+
+:good
+
+rem rest of the file
