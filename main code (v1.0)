@@ -12,11 +12,6 @@ rem and here you set the title to set later, after the verification measures
 
 set titleinput=
 
-rem this is the network IP panel:
-
-set IPnet=
-
-
 rem this is da security system. you're free to apply changes
 rem and re-distribute as it's open source. but it wouldn't
 rem hurt if you would leave the credit and more info button :3
@@ -56,17 +51,6 @@ START IEXPLORE.EXE https://www.youtube.com/channel/UC_mt5fZg8D5dacTwPWNMw6g
 PAUSE
 :PROCEED
 
-rem now there is the network IP section. this is used to allow access only if
-rem the computer is in a certain network
-
-ping %IPnet%
-for /f %%i in ('ping %IPnet% ^| find /c "(0%% loss)"') do SET MATCHES=%%i
-if %matches%==1 goto :goodip
-echo You are not connected to the network.
-pause
-exit
-
-:good
 rem here is the captcha section.
 rem this works by taking a random number from the range of 0 to 9
 rem afterwards the numbers are assigned to "numbers" drawn in ASCII
