@@ -5,7 +5,8 @@ If you encounter bugs let me know in the Issues tab
 The file preview.exe is the first version
 I try to update file preview.bat as often as i can
 
-HOW TO USE THIS REPOSITORY AKA DA ULTIMATE GUIDE TO BATCH SAFETY:
+
+# HOW TO USE THIS REPOSITORY AKA DA ULTIMATE GUIDE TO BATCH SAFETY:
 1. DOWNLOAD THE DESIRED CODE FROM MAIN CODE.TXT - YOU DON'T HAVE TO DOWNLOAD THE WHOLE CODE,
 	YOU CAN DOWNLOAD SPECIFIC PARTS TOO AND MIX IT UP AS YOU WILL, BUT IT'S BEST TO
 	PLACE THE CAPTCHA BEFORE THE PASSWORD MODULE.
@@ -18,3 +19,9 @@ HOW TO USE THIS REPOSITORY AKA DA ULTIMATE GUIDE TO BATCH SAFETY:
 5. BUT EVEN THEN, THE CODE IS NOT PERFECT AND A REALLY SKILLED HACKER COULD DE-COMPILE THE EXE FILE.
 		I TRY TO REGULARLY UPDATE THE CODE WITH NEW FEATURES TO KEEP YOU FILES SAFE, SO YOU SHOULD CHACK THE REP OUT
 		FROM TIME TO TIME :D
+
+
+# The goals of this software
+My goal in making this code was to make batch files more secure.
+Also i'm kinda board right now so yea i made this from pure boredom.
+But the 3rd goal is to help you learn batch coding. Not only that it's open-source and licensed with The Unilicense but it also has comments on each part of code. You can use them to build your own creations like this, maybe i'll inspire you to make someting cool? If something seems inclear tho, use the "something was unclear" issue template and notify me about this.
